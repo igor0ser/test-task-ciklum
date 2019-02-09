@@ -9,7 +9,7 @@ export const useFetch = () => {
   });
 
   useEffect(() => {
-    axios.get('https://randomu123ser.me/api/?nat=gb&results=5')
+    axios.get('https://randomuser.me/api/?nat=gb&results=5')
       .then(response => {
         const data = response.data.results;
         setFetchState({ loading: false, data, error: null });
