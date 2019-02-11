@@ -9,7 +9,6 @@ export class Application extends PureComponent {
   }
 
   moveRight = () => {
-    console.log("MOVE RIGHT CLICK");
     const { moveRight, data, columnIndex } = this.props;
     moveRight(data.id.value, columnIndex);
   }
