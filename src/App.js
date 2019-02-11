@@ -1,6 +1,6 @@
 import React from 'react';
-import { Layout } from './components/Layout/Layout';
-import { DataFetcher } from './components/DataFetcher/DataFetcher';
+import { Layout } from './Layout/Layout';
+import { DataFetcher } from './DataFetcher/DataFetcher';
 
 const App = () => (
   <Layout>

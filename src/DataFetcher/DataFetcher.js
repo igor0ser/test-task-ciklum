@@ -1,6 +1,6 @@
 import React from 'react';
 import { Alert, Spin } from 'antd';
-import { ApplicationTable } from '../ApplicationTable/ApplicationTable';
+import { ApplicationTable } from '../ApplicationsTable/AplicationTable';
 import { useFetch } from './useFetch';
 
 const errorMessage = "Something went terribly wrong :(";

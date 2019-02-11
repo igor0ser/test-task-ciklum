@@ -1,0 +1,6 @@
+.filter {
+  display: grid;
+  grid-template-columns:  1fr 1fr;
+  grid-column-gap: 1em;
+  margin-bottom: 16px;
+}

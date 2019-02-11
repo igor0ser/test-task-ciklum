@@ -1,0 +1,12 @@
+.application {
+  text-transform: capitalize;
+  margin-bottom: 16px;
+}
+
+.action,
+.action:hover {
+  box-shadow: none;
+  border: none;
+  background-color: transparent;
+  outline: none;
+}

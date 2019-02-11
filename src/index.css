@@ -6,6 +6,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: mistyrose;
+  background-color: #ccc;
   min-height: 100vw;
 }
+
