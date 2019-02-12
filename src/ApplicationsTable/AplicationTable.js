@@ -7,8 +7,8 @@ export const ApplicationTable = ({ initialApplications }) => {
   const [cityQuery, onCityChange] = useState('');
 
   const filterFn = ({ name: { first, last }, location: { city } }) =>
-    `${first} ${last}`.includes(nameQuery) &&
-    city.includes(cityQuery)
+    `${first} ${last}`.toLowerCase().includes(nameQuery.toLowerCase()) &&
+    city.toLowerCase().includes(cityQuery.toLowerCase())
 
   return (
     <>
